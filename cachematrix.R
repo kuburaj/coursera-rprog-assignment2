@@ -79,7 +79,7 @@ inverse = function(matrix){
         print(duration)
 }
 
-set.seed(1110201)
-r = rnorm(1000000)
-mat = matrix(r, nrow=1000, ncol=1000)
+set.seed(123)
+r = rnorm(10000)
+mat = matrix(r, nrow=100, ncol=100)
 inverse(mat)
